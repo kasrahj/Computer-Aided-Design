@@ -1,0 +1,482 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/20.1
+vadder
+Z0 !s110 1705171809
+!i10b 1
+!s100 JEO200m2M_@ZS>1QAJJJ42
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IERZM:dS_NkZEEFa:MfFj@3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dC:/Users/Mr. Hajiheideri/Desktop/kasra/semester 7/CAD/projects/project3 p2/trunk/trunk/fullcode
+Z4 w1705171597
+Z5 8C:\Users\Mr. Hajiheideri\Desktop\kasra\semester 7\CAD\projects\project3 p2\trunk\trunk\fullcode\adder.v
+Z6 FC:\Users\Mr. Hajiheideri\Desktop\kasra\semester 7\CAD\projects\project3 p2\trunk\trunk\fullcode\adder.v
+!i122 175
+L0 1 16
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1705171809.000000
+Z9 !s107 C:\Users\Mr. Hajiheideri\Desktop\kasra\semester 7\CAD\projects\project3 p2\trunk\trunk\fullcode\adder.v|
+Z10 !s90 -reportprogress|300|-work|work|-stats=none|C:\Users\Mr. Hajiheideri\Desktop\kasra\semester 7\CAD\projects\project3 p2\trunk\trunk\fullcode\adder.v|
+!i113 1
+Z11 o-work work
+Z12 tCvgOpt 0
+vadder_l2
+R0
+!i10b 1
+!s100 OMh^z46zhP`cVE_`1`n]@0
+R1
+I5R@fCEUR9o2l;<ehCKX?i0
+R2
+R3
+R4
+R5
+R6
+!i122 175
+L0 20 23
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+vbuff_16
+R0
+!i10b 1
+!s100 ^GDP;L44fMCJ:izAP06<92
+R1
+I^X[i^JmT`ONL3EUKn]YHc3
+R2
+R3
+w1704534103
+8C:/Users/Mr. Hajiheideri/Desktop/kasra/semester 7/CAD/projects/project3 p2/trunk/trunk/fullcode/16_buff.v
+FC:/Users/Mr. Hajiheideri/Desktop/kasra/semester 7/CAD/projects/project3 p2/trunk/trunk/fullcode/16_buff.v
+!i122 174
+L0 1 35
+R7
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/Mr. Hajiheideri/Desktop/kasra/semester 7/CAD/projects/project3 p2/trunk/trunk/fullcode/16_buff.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Mr. Hajiheideri/Desktop/kasra/semester 7/CAD/projects/project3 p2/trunk/trunk/fullcode/16_buff.v|
+!i113 1
+R11
+R12
+vController
+R0
+!i10b 1
+!s100 Obe>=V[jWz8io;CWdTjY[0
+R1
+IPOfVF^iglZchRz]ef_`9]1
+R2
+R3
+w1705169941
+8C:\Users\Mr. Hajiheideri\Desktop\kasra\semester 7\CAD\projects\project3 p2\trunk\trunk\fullcode\Controller.v
+FC:\Users\Mr. Hajiheideri\Desktop\kasra\semester 7\CAD\projects\project3 p2\trunk\trunk\fullcode\Controller.v
+!i122 176
+L0 1 460
+R7
+r1
+!s85 0
+31
+R8
+!s107 C:\Users\Mr. Hajiheideri\Desktop\kasra\semester 7\CAD\projects\project3 p2\trunk\trunk\fullcode\Controller.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\Mr. Hajiheideri\Desktop\kasra\semester 7\CAD\projects\project3 p2\trunk\trunk\fullcode\Controller.v|
+!i113 1
+R11
+R12
+n@controller
+vDataPath
+R0
+!i10b 1
+!s100 82Q=Xh_N^cC=Z2]^EZEl`0
+R1
+IedXF91990<Y2XB8GXR0fK2
+R2
+R3
+w1705169236
+8C:/Users/Mr. Hajiheideri/Desktop/kasra/semester 7/CAD/projects/project3 p2/trunk/trunk/fullcode/Datapath.v
+FC:/Users/Mr. Hajiheideri/Desktop/kasra/semester 7/CAD/projects/project3 p2/trunk/trunk/fullcode/Datapath.v
+!i122 177
+L0 1 104
+R7
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/Mr. Hajiheideri/Desktop/kasra/semester 7/CAD/projects/project3 p2/trunk/trunk/fullcode/Datapath.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Mr. Hajiheideri/Desktop/kasra/semester 7/CAD/projects/project3 p2/trunk/trunk/fullcode/Datapath.v|
+!i113 1
+R11
+R12
+n@data@path
+vDataPath_L2
+R0
+!i10b 1
+!s100 FRh1U`DA`UHc<WmVYoJKn1
+R1
+IHL?_e`kYlTcL@KY]]<Z_63
+R2
+R3
+w1705166799
+8C:/Users/Mr. Hajiheideri/Desktop/kasra/semester 7/CAD/projects/project3 p2/trunk/trunk/fullcode/Datapath_L2.v
+FC:/Users/Mr. Hajiheideri/Desktop/kasra/semester 7/CAD/projects/project3 p2/trunk/trunk/fullcode/Datapath_L2.v
+!i122 178
+L0 1 128
+R7
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/Mr. Hajiheideri/Desktop/kasra/semester 7/CAD/projects/project3 p2/trunk/trunk/fullcode/Datapath_L2.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Mr. Hajiheideri/Desktop/kasra/semester 7/CAD/projects/project3 p2/trunk/trunk/fullcode/Datapath_L2.v|
+!i113 1
+R11
+R12
+n@data@path_@l2
+vmac
+Z13 !s110 1705171810
+!i10b 1
+!s100 O<SLzglknhoWC;IG8[9Jh1
+R1
+I3c6Yh8MPXcKT::7QdjG?K0
+R2
+R3
+w1705169228
+8C:/Users/Mr. Hajiheideri/Desktop/kasra/semester 7/CAD/projects/project3 p2/trunk/trunk/fullcode/mac.v
+FC:/Users/Mr. Hajiheideri/Desktop/kasra/semester 7/CAD/projects/project3 p2/trunk/trunk/fullcode/mac.v
+!i122 179
+L0 1 106
+R7
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/Mr. Hajiheideri/Desktop/kasra/semester 7/CAD/projects/project3 p2/trunk/trunk/fullcode/mac.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Mr. Hajiheideri/Desktop/kasra/semester 7/CAD/projects/project3 p2/trunk/trunk/fullcode/mac.v|
+!i113 1
+R11
+R12
+vmactb
+R13
+!i10b 1
+!s100 @VQLBm7PMRnnOFHfgU00B3
+R1
+I=OFCbLZj_jf8:V4AZGlMC2
+R2
+R3
+w1705170138
+8C:/Users/Mr. Hajiheideri/Desktop/kasra/semester 7/CAD/projects/project3 p2/trunk/trunk/fullcode/mactb.v
+FC:/Users/Mr. Hajiheideri/Desktop/kasra/semester 7/CAD/projects/project3 p2/trunk/trunk/fullcode/mactb.v
+!i122 180
+L0 2 34
+R7
+r1
+!s85 0
+31
+Z14 !s108 1705171810.000000
+!s107 C:/Users/Mr. Hajiheideri/Desktop/kasra/semester 7/CAD/projects/project3 p2/trunk/trunk/fullcode/mactb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Mr. Hajiheideri/Desktop/kasra/semester 7/CAD/projects/project3 p2/trunk/trunk/fullcode/mactb.v|
+!i113 1
+R11
+R12
+vmain_buff
+R13
+!i10b 1
+!s100 WILgBjSX8UXGFD5lYeM;[3
+R1
+I?Mh`ZARD6[Ma@@ZZf^o[G2
+R2
+R3
+w1704537144
+8C:/Users/Mr. Hajiheideri/Desktop/kasra/semester 7/CAD/projects/project3 p2/trunk/trunk/fullcode/mainbuff.v
+FC:/Users/Mr. Hajiheideri/Desktop/kasra/semester 7/CAD/projects/project3 p2/trunk/trunk/fullcode/mainbuff.v
+!i122 181
+L0 1 41
+R7
+r1
+!s85 0
+31
+R14
+!s107 C:/Users/Mr. Hajiheideri/Desktop/kasra/semester 7/CAD/projects/project3 p2/trunk/trunk/fullcode/mainbuff.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Mr. Hajiheideri/Desktop/kasra/semester 7/CAD/projects/project3 p2/trunk/trunk/fullcode/mainbuff.v|
+!i113 1
+R11
+R12
+vmemory
+R13
+!i10b 1
+!s100 Q>K8jhl@Y<XVZAW^Rnfje0
+R1
+I;IRml@V<?[mK]bWDf?=U81
+R2
+R3
+w1704751746
+8C:/Users/Mr. Hajiheideri/Desktop/kasra/semester 7/CAD/projects/project3 p2/trunk/trunk/fullcode/Memory.v
+FC:/Users/Mr. Hajiheideri/Desktop/kasra/semester 7/CAD/projects/project3 p2/trunk/trunk/fullcode/Memory.v
+!i122 182
+L0 1 40
+R7
+r1
+!s85 0
+31
+R14
+!s107 C:/Users/Mr. Hajiheideri/Desktop/kasra/semester 7/CAD/projects/project3 p2/trunk/trunk/fullcode/Memory.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Mr. Hajiheideri/Desktop/kasra/semester 7/CAD/projects/project3 p2/trunk/trunk/fullcode/Memory.v|
+!i113 1
+R11
+R12
+vmultiplier
+R13
+!i10b 1
+!s100 VId6?4JT3=jK>A7P8T>Y]3
+R1
+IzcC0?[OhC?E91<[Q<d?V<2
+R2
+R3
+w1701888796
+8C:/Users/Mr. Hajiheideri/Desktop/kasra/semester 7/CAD/projects/project3 p2/trunk/trunk/fullcode/multiplier.v
+FC:/Users/Mr. Hajiheideri/Desktop/kasra/semester 7/CAD/projects/project3 p2/trunk/trunk/fullcode/multiplier.v
+!i122 183
+L0 1 10
+R7
+r1
+!s85 0
+31
+R14
+!s107 C:/Users/Mr. Hajiheideri/Desktop/kasra/semester 7/CAD/projects/project3 p2/trunk/trunk/fullcode/multiplier.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Mr. Hajiheideri/Desktop/kasra/semester 7/CAD/projects/project3 p2/trunk/trunk/fullcode/multiplier.v|
+!i113 1
+R11
+R12
+vOfm
+R13
+!i10b 1
+!s100 [T=;=f9Cjn8>RUM_Shc:o2
+R1
+I9aDXZ;iU^hezL]<Lz1fc32
+R2
+R3
+w1705170033
+8C:/Users/Mr. Hajiheideri/Desktop/kasra/semester 7/CAD/projects/project3 p2/trunk/trunk/fullcode/OFM.v
+FC:/Users/Mr. Hajiheideri/Desktop/kasra/semester 7/CAD/projects/project3 p2/trunk/trunk/fullcode/OFM.v
+!i122 184
+L0 1 24
+R7
+r1
+!s85 0
+31
+R14
+!s107 C:/Users/Mr. Hajiheideri/Desktop/kasra/semester 7/CAD/projects/project3 p2/trunk/trunk/fullcode/OFM.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Mr. Hajiheideri/Desktop/kasra/semester 7/CAD/projects/project3 p2/trunk/trunk/fullcode/OFM.v|
+!i113 1
+R11
+R12
+n@ofm
+vOfm_1
+R13
+!i10b 1
+!s100 i749Y3gH@iPJ[OnQH^TEN0
+R1
+IhlcBW0b4fBXhcDVXWAIWz0
+R2
+R3
+Z15 w1705169636
+Z16 8C:/Users/Mr. Hajiheideri/Desktop/kasra/semester 7/CAD/projects/project3 p2/trunk/trunk/fullcode/OFM_L1.v
+Z17 FC:/Users/Mr. Hajiheideri/Desktop/kasra/semester 7/CAD/projects/project3 p2/trunk/trunk/fullcode/OFM_L1.v
+!i122 185
+L0 1 44
+R7
+r1
+!s85 0
+31
+R14
+Z18 !s107 C:/Users/Mr. Hajiheideri/Desktop/kasra/semester 7/CAD/projects/project3 p2/trunk/trunk/fullcode/OFM_L1.v|
+Z19 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Mr. Hajiheideri/Desktop/kasra/semester 7/CAD/projects/project3 p2/trunk/trunk/fullcode/OFM_L1.v|
+!i113 1
+R11
+R12
+n@ofm_1
+vOfm_2
+R13
+!i10b 1
+!s100 g6GY;YT3VXeGPFnSZc:@71
+R1
+IZgSNWW6k[YZPZ6Y@E4_;33
+R2
+R3
+R15
+R16
+R17
+!i122 185
+L0 46 44
+R7
+r1
+!s85 0
+31
+R14
+R18
+R19
+!i113 1
+R11
+R12
+n@ofm_2
+vOfm_3
+R13
+!i10b 1
+!s100 eh_E=4fjL9^OmTEi@JDN_0
+R1
+I7BJHFJVE1gc[j@>4J9i3D2
+R2
+R3
+R15
+R16
+R17
+!i122 185
+L0 91 44
+R7
+r1
+!s85 0
+31
+R14
+R18
+R19
+!i113 1
+R11
+R12
+n@ofm_3
+vOfm_4
+R13
+!i10b 1
+!s100 BZNSXYcXE4V;U]^32a[Ld3
+R1
+I25c;Y_d?3D4P6Xd=F;F1X1
+R2
+R3
+R15
+R16
+R17
+!i122 185
+L0 136 44
+R7
+r1
+!s85 0
+31
+R14
+R18
+R19
+!i113 1
+R11
+R12
+n@ofm_4
+vPE
+Z20 !s110 1705171811
+!i10b 1
+!s100 56o7]eCkWR>bm_faZYE2]3
+R1
+I]eF>c2BB>o9mV[j2]7AN>0
+R2
+R3
+Z21 w1705166757
+Z22 8C:/Users/Mr. Hajiheideri/Desktop/kasra/semester 7/CAD/projects/project3 p2/trunk/trunk/fullcode/PE.v
+Z23 FC:/Users/Mr. Hajiheideri/Desktop/kasra/semester 7/CAD/projects/project3 p2/trunk/trunk/fullcode/PE.v
+!i122 186
+L0 1 56
+R7
+r1
+!s85 0
+31
+R14
+Z24 !s107 C:/Users/Mr. Hajiheideri/Desktop/kasra/semester 7/CAD/projects/project3 p2/trunk/trunk/fullcode/PE.v|
+Z25 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Mr. Hajiheideri/Desktop/kasra/semester 7/CAD/projects/project3 p2/trunk/trunk/fullcode/PE.v|
+!i113 1
+R11
+R12
+n@p@e
+vPE_l2
+R20
+!i10b 1
+!s100 T]LJ7>d`Z:PbOmQ6VVXXM2
+R1
+I6PQ>:;L43^a2]2gTM=gZT3
+R2
+R3
+R21
+R22
+R23
+!i122 186
+L0 60 239
+R7
+r1
+!s85 0
+31
+R14
+R24
+R25
+!i113 1
+R11
+R12
+n@p@e_l2
+vRegister
+R20
+!i10b 1
+!s100 N2>_jMOK9Jl2acQbd`lhk2
+R1
+I1W`0D]9:3o9WQPLV?][]:2
+R2
+R3
+w1701763605
+8C:/Users/Mr. Hajiheideri/Desktop/kasra/semester 7/CAD/projects/project3 p2/trunk/trunk/fullcode/register.v
+FC:/Users/Mr. Hajiheideri/Desktop/kasra/semester 7/CAD/projects/project3 p2/trunk/trunk/fullcode/register.v
+!i122 187
+L0 1 15
+R7
+r1
+!s85 0
+31
+Z26 !s108 1705171811.000000
+!s107 C:/Users/Mr. Hajiheideri/Desktop/kasra/semester 7/CAD/projects/project3 p2/trunk/trunk/fullcode/register.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Mr. Hajiheideri/Desktop/kasra/semester 7/CAD/projects/project3 p2/trunk/trunk/fullcode/register.v|
+!i113 1
+R11
+R12
+n@register
+vshift_buffer
+R20
+!i10b 1
+!s100 L@zY`>]J@32D3U_P9zcX<1
+R1
+IJCB3gj<99F2SDgmdcPb@I0
+R2
+R3
+w1701888802
+8C:/Users/Mr. Hajiheideri/Desktop/kasra/semester 7/CAD/projects/project3 p2/trunk/trunk/fullcode/shift_buffer.v
+FC:/Users/Mr. Hajiheideri/Desktop/kasra/semester 7/CAD/projects/project3 p2/trunk/trunk/fullcode/shift_buffer.v
+!i122 188
+L0 1 47
+R7
+r1
+!s85 0
+31
+R26
+!s107 C:/Users/Mr. Hajiheideri/Desktop/kasra/semester 7/CAD/projects/project3 p2/trunk/trunk/fullcode/shift_buffer.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Mr. Hajiheideri/Desktop/kasra/semester 7/CAD/projects/project3 p2/trunk/trunk/fullcode/shift_buffer.v|
+!i113 1
+R11
+R12

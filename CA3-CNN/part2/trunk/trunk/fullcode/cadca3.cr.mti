@@ -1,0 +1,85 @@
+{C:/Users/Mr. Hajiheideri/Desktop/kasra/semester 7/CAD/projects/project3/trunk/trunk/src/hdl/test/Memory.v} {1 {vlog -work work -stats=none {C:/Users/Mr. Hajiheideri/Desktop/kasra/semester 7/CAD/projects/project3/trunk/trunk/src/hdl/test/Memory.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module memory
+
+Top level modules:
+	memory
+
+} {} {}} {C:/Users/Mr. Hajiheideri/Desktop/kasra/semester 7/CAD/projects/project3/trunk/trunk/src/hdl/test/register.v} {1 {vlog -work work -stats=none {C:/Users/Mr. Hajiheideri/Desktop/kasra/semester 7/CAD/projects/project3/trunk/trunk/src/hdl/test/register.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Register
+
+Top level modules:
+	Register
+
+} {} {}} {C:/Users/Mr. Hajiheideri/Desktop/kasra/semester 7/CAD/projects/project3/trunk/trunk/src/hdl/test/shift_buffer.v} {1 {vlog -work work -stats=none {C:/Users/Mr. Hajiheideri/Desktop/kasra/semester 7/CAD/projects/project3/trunk/trunk/src/hdl/test/shift_buffer.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module shift_buffer
+
+Top level modules:
+	shift_buffer
+
+} {} {}} {C:/Users/Mr. Hajiheideri/Desktop/kasra/semester 7/CAD/projects/project3/trunk/trunk/src/hdl/test/multiplier.v} {1 {vlog -work work -stats=none {C:/Users/Mr. Hajiheideri/Desktop/kasra/semester 7/CAD/projects/project3/trunk/trunk/src/hdl/test/multiplier.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module multiplier
+
+Top level modules:
+	multiplier
+
+} {} {}} {C:/Users/Mr. Hajiheideri/Desktop/kasra/semester 7/CAD/projects/project3/trunk/trunk/src/hdl/test/adder.v} {1 {vlog -work work -stats=none {C:/Users/Mr. Hajiheideri/Desktop/kasra/semester 7/CAD/projects/project3/trunk/trunk/src/hdl/test/adder.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module adder
+
+Top level modules:
+	adder
+
+} {} {}} {C:/Users/Mr. Hajiheideri/Desktop/kasra/semester 7/CAD/projects/project3/trunk/trunk/src/hdl/test/mac.v} {1 {vlog -work work -stats=none {C:/Users/Mr. Hajiheideri/Desktop/kasra/semester 7/CAD/projects/project3/trunk/trunk/src/hdl/test/mac.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module mac
+
+Top level modules:
+	mac
+
+} {} {}} {C:/Users/Mr. Hajiheideri/Desktop/kasra/semester 7/CAD/projects/project3/trunk/trunk/src/hdl/test/16_buff.v} {1 {vlog -work work -stats=none {C:/Users/Mr. Hajiheideri/Desktop/kasra/semester 7/CAD/projects/project3/trunk/trunk/src/hdl/test/16_buff.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module buff_16
+
+Top level modules:
+	buff_16
+
+} {} {}} {C:/Users/Mr. Hajiheideri/Desktop/kasra/semester 7/CAD/projects/project3/trunk/trunk/src/hdl/test/Controller.v} {1 {vlog -work work -stats=none {C:/Users/Mr. Hajiheideri/Desktop/kasra/semester 7/CAD/projects/project3/trunk/trunk/src/hdl/test/Controller.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Controller
+
+Top level modules:
+	Controller
+
+} {} {}} {C:/Users/Mr. Hajiheideri/Desktop/kasra/semester 7/CAD/projects/project3/trunk/trunk/src/hdl/test/PE.v} {1 {vlog -work work -stats=none {C:/Users/Mr. Hajiheideri/Desktop/kasra/semester 7/CAD/projects/project3/trunk/trunk/src/hdl/test/PE.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module PE
+
+Top level modules:
+	PE
+
+} {} {}} {C:/Users/Mr. Hajiheideri/Desktop/kasra/semester 7/CAD/projects/project3/trunk/trunk/src/hdl/test/Datapath.v} {1 {vlog -work work -stats=none {C:/Users/Mr. Hajiheideri/Desktop/kasra/semester 7/CAD/projects/project3/trunk/trunk/src/hdl/test/Datapath.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module DataPath
+
+Top level modules:
+	DataPath
+
+} {} {}} {C:/Users/Mr. Hajiheideri/Desktop/kasra/semester 7/CAD/projects/project3/trunk/trunk/src/hdl/test/mactb.v} {1 {vlog -work work -stats=none {C:/Users/Mr. Hajiheideri/Desktop/kasra/semester 7/CAD/projects/project3/trunk/trunk/src/hdl/test/mactb.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module mactb
+
+Top level modules:
+	mactb
+
+} {} {}} {C:/Users/Mr. Hajiheideri/Desktop/kasra/semester 7/CAD/projects/project3/trunk/trunk/src/hdl/test/mainbuff.v} {1 {vlog -work work -stats=none {C:/Users/Mr. Hajiheideri/Desktop/kasra/semester 7/CAD/projects/project3/trunk/trunk/src/hdl/test/mainbuff.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module main_buff
+
+Top level modules:
+	main_buff
+
+} {} {}}

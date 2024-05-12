@@ -1,0 +1,1166 @@
+# Compile of 16_buff.v was successful.
+# Compile of adder.v was successful.
+# Compile of Controller.v was successful.
+# Compile of Datapath.v was successful.
+# Compile of mac.v was successful.
+# Compile of mactb.v was successful.
+# Compile of mainbuff.v was successful.
+# Compile of Memory.v was successful.
+# Compile of multiplier.v was successful.
+# Compile of OFM.v was successful.
+# Compile of PE.v was successful.
+# Compile of register.v was successful.
+# Compile of shift_buffer.v was successful.
+# 13 compiles, 0 failed with no errors.
+vsim -gui work.mactb
+# vsim -gui work.mactb 
+# Start time: 23:12:46 on Jan 08,2024
+# Loading work.mactb
+# Loading work.mac
+# Loading work.DataPath
+# Loading work.memory
+# Loading work.main_buff
+# Loading work.shift_buffer
+# Loading work.Controller
+# Loading work.PE
+# Loading work.buff_16
+# Loading work.multiplier
+# Loading work.adder
+# Loading work.Ofm
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (6) for port 'address'. The port definition is at: C:/Users/Mr. Hajiheideri/Desktop/kasra/semester 7/CAD/projects/project3/trunk/trunk/src/hdl/test/OFM.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /mactb/dut/dp/generating_pe[0]/pes/ofm File: C:/Users/Mr. Hajiheideri/Desktop/kasra/semester 7/CAD/projects/project3/trunk/trunk/src/hdl/test/PE.v Line: 53
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (6) for port 'address'. The port definition is at: C:/Users/Mr. Hajiheideri/Desktop/kasra/semester 7/CAD/projects/project3/trunk/trunk/src/hdl/test/OFM.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /mactb/dut/dp/generating_pe[1]/pes/ofm File: C:/Users/Mr. Hajiheideri/Desktop/kasra/semester 7/CAD/projects/project3/trunk/trunk/src/hdl/test/PE.v Line: 53
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (6) for port 'address'. The port definition is at: C:/Users/Mr. Hajiheideri/Desktop/kasra/semester 7/CAD/projects/project3/trunk/trunk/src/hdl/test/OFM.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /mactb/dut/dp/generating_pe[2]/pes/ofm File: C:/Users/Mr. Hajiheideri/Desktop/kasra/semester 7/CAD/projects/project3/trunk/trunk/src/hdl/test/PE.v Line: 53
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (6) for port 'address'. The port definition is at: C:/Users/Mr. Hajiheideri/Desktop/kasra/semester 7/CAD/projects/project3/trunk/trunk/src/hdl/test/OFM.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /mactb/dut/dp/generating_pe[3]/pes/ofm File: C:/Users/Mr. Hajiheideri/Desktop/kasra/semester 7/CAD/projects/project3/trunk/trunk/src/hdl/test/PE.v Line: 53
+add wave -position insertpoint  \
+sim:/mactb/dut/dp/mem/memory
+run -all
+# ** Note: $stop    : C:/Users/Mr. Hajiheideri/Desktop/kasra/semester 7/CAD/projects/project3/trunk/trunk/src/hdl/test/mactb.v(22)
+#    Time: 40027 ps  Iteration: 0  Instance: /mactb
+# Break in Module mactb at C:/Users/Mr. Hajiheideri/Desktop/kasra/semester 7/CAD/projects/project3/trunk/trunk/src/hdl/test/mactb.v line 22
+add wave -position insertpoint  \
+sim:/mactb/dut/dp/pic_buff/buffer
+add wave -position insertpoint  \
+sim:/mactb/dut/dp/main_buffer/memory
+add wave -position insertpoint  \
+{sim:/mactb/dut/dp/generating_pe[3]/pes/filter/buffer}
+add wave -position insertpoint  \
+{sim:/mactb/dut/dp/generating_pe[2]/pes/filter/buffer}
+add wave -position insertpoint  \
+{sim:/mactb/dut/dp/generating_pe[1]/pes/filter/buffer}
+add wave -position insertpoint  \
+{sim:/mactb/dut/dp/generating_pe[0]/pes/filter/buffer}
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (6) for port 'address'. The port definition is at: C:/Users/Mr. Hajiheideri/Desktop/kasra/semester 7/CAD/projects/project3/trunk/trunk/src/hdl/test/OFM.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /mactb/dut/dp/generating_pe[0]/pes/ofm File: C:/Users/Mr. Hajiheideri/Desktop/kasra/semester 7/CAD/projects/project3/trunk/trunk/src/hdl/test/PE.v Line: 53
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (6) for port 'address'. The port definition is at: C:/Users/Mr. Hajiheideri/Desktop/kasra/semester 7/CAD/projects/project3/trunk/trunk/src/hdl/test/OFM.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /mactb/dut/dp/generating_pe[1]/pes/ofm File: C:/Users/Mr. Hajiheideri/Desktop/kasra/semester 7/CAD/projects/project3/trunk/trunk/src/hdl/test/PE.v Line: 53
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (6) for port 'address'. The port definition is at: C:/Users/Mr. Hajiheideri/Desktop/kasra/semester 7/CAD/projects/project3/trunk/trunk/src/hdl/test/OFM.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /mactb/dut/dp/generating_pe[2]/pes/ofm File: C:/Users/Mr. Hajiheideri/Desktop/kasra/semester 7/CAD/projects/project3/trunk/trunk/src/hdl/test/PE.v Line: 53
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (6) for port 'address'. The port definition is at: C:/Users/Mr. Hajiheideri/Desktop/kasra/semester 7/CAD/projects/project3/trunk/trunk/src/hdl/test/OFM.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /mactb/dut/dp/generating_pe[3]/pes/ofm File: C:/Users/Mr. Hajiheideri/Desktop/kasra/semester 7/CAD/projects/project3/trunk/trunk/src/hdl/test/PE.v Line: 53
+run -all
+# ** Note: $stop    : C:/Users/Mr. Hajiheideri/Desktop/kasra/semester 7/CAD/projects/project3/trunk/trunk/src/hdl/test/mactb.v(22)
+#    Time: 40027 ps  Iteration: 0  Instance: /mactb
+# Break in Module mactb at C:/Users/Mr. Hajiheideri/Desktop/kasra/semester 7/CAD/projects/project3/trunk/trunk/src/hdl/test/mactb.v line 22
+add wave -position insertpoint sim:/mactb/dut/ct/*
+# Compile of 16_buff.v was successful.
+# Compile of adder.v was successful.
+# Compile of Controller.v was successful.
+# Compile of Datapath.v was successful.
+# Compile of mac.v was successful.
+# Compile of mactb.v was successful.
+# Compile of mainbuff.v was successful.
+# Compile of Memory.v was successful.
+# Compile of multiplier.v was successful.
+# Compile of OFM.v was successful.
+# Compile of PE.v was successful.
+# Compile of register.v was successful.
+# Compile of shift_buffer.v was successful.
+# 13 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.mactb
+# Loading work.mac
+# Loading work.DataPath
+# Loading work.memory
+# Loading work.main_buff
+# Loading work.shift_buffer
+# Loading work.Controller
+# Loading work.PE
+# Loading work.buff_16
+# Loading work.multiplier
+# Loading work.adder
+# Loading work.Ofm
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (6) for port 'address'. The port definition is at: C:/Users/Mr. Hajiheideri/Desktop/kasra/semester 7/CAD/projects/project3/trunk/trunk/src/hdl/test/OFM.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /mactb/dut/dp/generating_pe[0]/pes/ofm File: C:/Users/Mr. Hajiheideri/Desktop/kasra/semester 7/CAD/projects/project3/trunk/trunk/src/hdl/test/PE.v Line: 53
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (6) for port 'address'. The port definition is at: C:/Users/Mr. Hajiheideri/Desktop/kasra/semester 7/CAD/projects/project3/trunk/trunk/src/hdl/test/OFM.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /mactb/dut/dp/generating_pe[1]/pes/ofm File: C:/Users/Mr. Hajiheideri/Desktop/kasra/semester 7/CAD/projects/project3/trunk/trunk/src/hdl/test/PE.v Line: 53
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (6) for port 'address'. The port definition is at: C:/Users/Mr. Hajiheideri/Desktop/kasra/semester 7/CAD/projects/project3/trunk/trunk/src/hdl/test/OFM.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /mactb/dut/dp/generating_pe[2]/pes/ofm File: C:/Users/Mr. Hajiheideri/Desktop/kasra/semester 7/CAD/projects/project3/trunk/trunk/src/hdl/test/PE.v Line: 53
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (6) for port 'address'. The port definition is at: C:/Users/Mr. Hajiheideri/Desktop/kasra/semester 7/CAD/projects/project3/trunk/trunk/src/hdl/test/OFM.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /mactb/dut/dp/generating_pe[3]/pes/ofm File: C:/Users/Mr. Hajiheideri/Desktop/kasra/semester 7/CAD/projects/project3/trunk/trunk/src/hdl/test/PE.v Line: 53
+run -all
+# ** Note: $stop    : C:/Users/Mr. Hajiheideri/Desktop/kasra/semester 7/CAD/projects/project3/trunk/trunk/src/hdl/test/mactb.v(22)
+#    Time: 40027 ps  Iteration: 0  Instance: /mactb
+# Break in Module mactb at C:/Users/Mr. Hajiheideri/Desktop/kasra/semester 7/CAD/projects/project3/trunk/trunk/src/hdl/test/mactb.v line 22
+quit -sim
+# End time: 23:27:21 on Jan 08,2024, Elapsed time: 0:14:35
+# Errors: 0, Warnings: 5
+# Compile of 16_buff.v was successful.
+# Compile of adder.v was successful.
+# Compile of Controller.v failed with 2 errors.
+# Compile of Datapath.v was successful.
+# Compile of mac.v was successful.
+# Compile of mactb.v was successful.
+# Compile of mainbuff.v was successful.
+# Compile of Memory.v was successful.
+# Compile of multiplier.v was successful.
+# Compile of OFM.v was successful.
+# Compile of PE.v was successful.
+# Compile of register.v was successful.
+# Compile of shift_buffer.v was successful.
+# 13 compiles, 1 failed with 2 errors.
+# Compile of 16_buff.v was successful.
+# Compile of adder.v was successful.
+# Compile of Controller.v failed with 3 errors.
+# Compile of Datapath.v was successful.
+# Compile of mac.v was successful.
+# Compile of mactb.v was successful.
+# Compile of mainbuff.v was successful.
+# Compile of Memory.v was successful.
+# Compile of multiplier.v was successful.
+# Compile of OFM.v was successful.
+# Compile of PE.v was successful.
+# Compile of register.v was successful.
+# Compile of shift_buffer.v was successful.
+# 13 compiles, 1 failed with 3 errors.
+# Compile of 16_buff.v was successful.
+# Compile of adder.v was successful.
+# Compile of Controller.v was successful.
+# Compile of Datapath.v was successful.
+# Compile of mac.v was successful.
+# Compile of mactb.v was successful.
+# Compile of mainbuff.v was successful.
+# Compile of Memory.v was successful.
+# Compile of multiplier.v was successful.
+# Compile of OFM.v was successful.
+# Compile of PE.v was successful.
+# Compile of register.v was successful.
+# Compile of shift_buffer.v was successful.
+# 13 compiles, 0 failed with no errors.
+vsim -gui work.mactb
+# vsim -gui work.mactb 
+# Start time: 23:30:58 on Jan 08,2024
+# Loading work.mactb
+# Loading work.mac
+# Loading work.DataPath
+# Loading work.memory
+# Loading work.main_buff
+# Loading work.shift_buffer
+# Loading work.Controller
+# Loading work.PE
+# Loading work.buff_16
+# Loading work.multiplier
+# Loading work.adder
+# Loading work.Ofm
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (6) for port 'address'. The port definition is at: C:/Users/Mr. Hajiheideri/Desktop/kasra/semester 7/CAD/projects/project3/trunk/trunk/src/hdl/test/OFM.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /mactb/dut/dp/generating_pe[0]/pes/ofm File: C:/Users/Mr. Hajiheideri/Desktop/kasra/semester 7/CAD/projects/project3/trunk/trunk/src/hdl/test/PE.v Line: 53
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (6) for port 'address'. The port definition is at: C:/Users/Mr. Hajiheideri/Desktop/kasra/semester 7/CAD/projects/project3/trunk/trunk/src/hdl/test/OFM.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /mactb/dut/dp/generating_pe[1]/pes/ofm File: C:/Users/Mr. Hajiheideri/Desktop/kasra/semester 7/CAD/projects/project3/trunk/trunk/src/hdl/test/PE.v Line: 53
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (6) for port 'address'. The port definition is at: C:/Users/Mr. Hajiheideri/Desktop/kasra/semester 7/CAD/projects/project3/trunk/trunk/src/hdl/test/OFM.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /mactb/dut/dp/generating_pe[2]/pes/ofm File: C:/Users/Mr. Hajiheideri/Desktop/kasra/semester 7/CAD/projects/project3/trunk/trunk/src/hdl/test/PE.v Line: 53
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (6) for port 'address'. The port definition is at: C:/Users/Mr. Hajiheideri/Desktop/kasra/semester 7/CAD/projects/project3/trunk/trunk/src/hdl/test/OFM.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /mactb/dut/dp/generating_pe[3]/pes/ofm File: C:/Users/Mr. Hajiheideri/Desktop/kasra/semester 7/CAD/projects/project3/trunk/trunk/src/hdl/test/PE.v Line: 53
+# ** Error: (vsim-3063) Port 'wEnFilter' not found in the connected module (7th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /mactb/dut/ct File: C:/Users/Mr. Hajiheideri/Desktop/kasra/semester 7/CAD/projects/project3/trunk/trunk/src/hdl/test/mac.v Line: 34
+# Error loading design
+# End time: 23:30:59 on Jan 08,2024, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 8
+# Compile of 16_buff.v was successful.
+# Compile of adder.v was successful.
+# Compile of Controller.v was successful.
+# Compile of Datapath.v was successful.
+# Compile of mac.v was successful.
+# Compile of mactb.v was successful.
+# Compile of mainbuff.v was successful.
+# Compile of Memory.v was successful.
+# Compile of multiplier.v was successful.
+# Compile of OFM.v was successful.
+# Compile of PE.v was successful.
+# Compile of register.v was successful.
+# Compile of shift_buffer.v was successful.
+# 13 compiles, 0 failed with no errors.
+vsim -gui work.mactb
+# vsim -gui work.mactb 
+# Start time: 23:34:38 on Jan 08,2024
+# Loading work.mactb
+# Loading work.mac
+# Loading work.DataPath
+# Loading work.memory
+# Loading work.main_buff
+# Loading work.shift_buffer
+# Loading work.Controller
+# Loading work.PE
+# Loading work.buff_16
+# Loading work.multiplier
+# Loading work.adder
+# Loading work.Ofm
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (6) for port 'address'. The port definition is at: C:/Users/Mr. Hajiheideri/Desktop/kasra/semester 7/CAD/projects/project3/trunk/trunk/src/hdl/test/OFM.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /mactb/dut/dp/generating_pe[0]/pes/ofm File: C:/Users/Mr. Hajiheideri/Desktop/kasra/semester 7/CAD/projects/project3/trunk/trunk/src/hdl/test/PE.v Line: 53
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (6) for port 'address'. The port definition is at: C:/Users/Mr. Hajiheideri/Desktop/kasra/semester 7/CAD/projects/project3/trunk/trunk/src/hdl/test/OFM.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /mactb/dut/dp/generating_pe[1]/pes/ofm File: C:/Users/Mr. Hajiheideri/Desktop/kasra/semester 7/CAD/projects/project3/trunk/trunk/src/hdl/test/PE.v Line: 53
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (6) for port 'address'. The port definition is at: C:/Users/Mr. Hajiheideri/Desktop/kasra/semester 7/CAD/projects/project3/trunk/trunk/src/hdl/test/OFM.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /mactb/dut/dp/generating_pe[2]/pes/ofm File: C:/Users/Mr. Hajiheideri/Desktop/kasra/semester 7/CAD/projects/project3/trunk/trunk/src/hdl/test/PE.v Line: 53
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (6) for port 'address'. The port definition is at: C:/Users/Mr. Hajiheideri/Desktop/kasra/semester 7/CAD/projects/project3/trunk/trunk/src/hdl/test/OFM.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /mactb/dut/dp/generating_pe[3]/pes/ofm File: C:/Users/Mr. Hajiheideri/Desktop/kasra/semester 7/CAD/projects/project3/trunk/trunk/src/hdl/test/PE.v Line: 53
+# ** Error: (vsim-3063) Port 'wEnFilter' not found in the connected module (7th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /mactb/dut/ct File: C:/Users/Mr. Hajiheideri/Desktop/kasra/semester 7/CAD/projects/project3/trunk/trunk/src/hdl/test/mac.v Line: 34
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (6) for port 'ofmaddr'. The port definition is at: C:/Users/Mr. Hajiheideri/Desktop/kasra/semester 7/CAD/projects/project3/trunk/trunk/src/hdl/test/Controller.v(8).
+#    Time: 0 ps  Iteration: 0  Instance: /mactb/dut/ct File: C:/Users/Mr. Hajiheideri/Desktop/kasra/semester 7/CAD/projects/project3/trunk/trunk/src/hdl/test/mac.v Line: 34
+# Error loading design
+# End time: 23:34:38 on Jan 08,2024, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 7
+# Compile of 16_buff.v was successful.
+# Compile of adder.v was successful.
+# Compile of Controller.v was successful.
+# Compile of Datapath.v was successful.
+# Compile of mac.v was successful.
+# Compile of mactb.v was successful.
+# Compile of mainbuff.v was successful.
+# Compile of Memory.v was successful.
+# Compile of multiplier.v was successful.
+# Compile of OFM.v was successful.
+# Compile of PE.v was successful.
+# Compile of register.v was successful.
+# Compile of shift_buffer.v was successful.
+# 13 compiles, 0 failed with no errors.
+vsim -gui work.mactb
+# vsim -gui work.mactb 
+# Start time: 23:36:59 on Jan 08,2024
+# Loading work.mactb
+# Loading work.mac
+# Loading work.DataPath
+# Loading work.memory
+# Loading work.main_buff
+# Loading work.shift_buffer
+# Loading work.Controller
+# Loading work.PE
+# Loading work.buff_16
+# Loading work.multiplier
+# Loading work.adder
+# Loading work.Ofm
+add wave -position insertpoint  \
+sim:/mactb/dut/dp/mem/memory
+add wave -position insertpoint  \
+sim:/mactb/dut/dp/main_buffer/memory
+add wave -position insertpoint  \
+sim:/mactb/dut/dp/pic_buff/buffer
+add wave -position insertpoint  \
+{sim:/mactb/dut/dp/generating_pe[3]/pes/filter/buffer}
+add wave -position insertpoint {sim:/mactb/dut/dp/generating_pe[2]/pes/*}
+add wave -position insertpoint  \
+{sim:/mactb/dut/dp/generating_pe[3]/pes/filter/buffer}
+add wave -position insertpoint  \
+{sim:/mactb/dut/dp/generating_pe[2]/pes/filter/buffer}
+add wave -position insertpoint  \
+{sim:/mactb/dut/dp/generating_pe[1]/pes/filter/buffer}
+add wave -position insertpoint  \
+{sim:/mactb/dut/dp/generating_pe[0]/pes/filter/buffer}
+add wave -position insertpoint  \
+sim:/mactb/dut/dp/mem/memory
+add wave -position insertpoint  \
+sim:/mactb/dut/dp/main_buffer/memory
+add wave -position insertpoint  \
+sim:/mactb/dut/dp/pic_buff/buffer
+add wave -position insertpoint  \
+sim:/mactb/dut/ct/writeEnFilter
+add wave -position insertpoint sim:/mactb/dut/ct/*
+run -all
+# ** Note: $stop    : C:/Users/Mr. Hajiheideri/Desktop/kasra/semester 7/CAD/projects/project3/trunk/trunk/src/hdl/test/mactb.v(22)
+#    Time: 40027 ps  Iteration: 0  Instance: /mactb
+# Break in Module mactb at C:/Users/Mr. Hajiheideri/Desktop/kasra/semester 7/CAD/projects/project3/trunk/trunk/src/hdl/test/mactb.v line 22
+add wave -position insertpoint  \
+{sim:/mactb/dut/dp/generating_pe[3]/pes/wEnFilter}
+add wave -position insertpoint  \
+{sim:/mactb/dut/dp/generating_pe[2]/pes/wEnFilter}
+add wave -position insertpoint  \
+{sim:/mactb/dut/dp/generating_pe[1]/pes/wEnFilter}
+add wave -position insertpoint  \
+{sim:/mactb/dut/dp/generating_pe[0]/pes/wEnFilter}
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run -all
+# ** Note: $stop    : C:/Users/Mr. Hajiheideri/Desktop/kasra/semester 7/CAD/projects/project3/trunk/trunk/src/hdl/test/mactb.v(22)
+#    Time: 40027 ps  Iteration: 0  Instance: /mactb
+# Break in Module mactb at C:/Users/Mr. Hajiheideri/Desktop/kasra/semester 7/CAD/projects/project3/trunk/trunk/src/hdl/test/mactb.v line 22
+# Compile of 16_buff.v was successful.
+# Compile of adder.v was successful.
+# Compile of Controller.v was successful.
+# Compile of Datapath.v was successful.
+# Compile of mac.v was successful.
+# Compile of mactb.v was successful.
+# Compile of mainbuff.v was successful.
+# Compile of Memory.v was successful.
+# Compile of multiplier.v was successful.
+# Compile of OFM.v was successful.
+# Compile of PE.v was successful.
+# Compile of register.v was successful.
+# Compile of shift_buffer.v was successful.
+# 13 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.mactb
+# Loading work.mac
+# Loading work.DataPath
+# Loading work.memory
+# Loading work.main_buff
+# Loading work.shift_buffer
+# Loading work.Controller
+# Loading work.PE
+# Loading work.buff_16
+# Loading work.multiplier
+# Loading work.adder
+# Loading work.Ofm
+run -all
+# ** Note: $stop    : C:/Users/Mr. Hajiheideri/Desktop/kasra/semester 7/CAD/projects/project3/trunk/trunk/src/hdl/test/mactb.v(22)
+#    Time: 40027 ps  Iteration: 0  Instance: /mactb
+# Break in Module mactb at C:/Users/Mr. Hajiheideri/Desktop/kasra/semester 7/CAD/projects/project3/trunk/trunk/src/hdl/test/mactb.v line 22
+# Compile of 16_buff.v was successful.
+# Compile of adder.v was successful.
+# Compile of Controller.v was successful.
+# Compile of Datapath.v was successful.
+# Compile of mac.v was successful.
+# Compile of mactb.v was successful.
+# Compile of mainbuff.v was successful.
+# Compile of Memory.v was successful.
+# Compile of multiplier.v was successful.
+# Compile of OFM.v was successful.
+# Compile of PE.v was successful.
+# Compile of register.v was successful.
+# Compile of shift_buffer.v was successful.
+# 13 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.mactb
+# Loading work.mac
+# Loading work.DataPath
+# Loading work.memory
+# Loading work.main_buff
+# Loading work.shift_buffer
+# Loading work.Controller
+# Loading work.PE
+# Loading work.buff_16
+# Loading work.multiplier
+# Loading work.adder
+# Loading work.Ofm
+run -all
+# ** Note: $stop    : C:/Users/Mr. Hajiheideri/Desktop/kasra/semester 7/CAD/projects/project3/trunk/trunk/src/hdl/test/mactb.v(22)
+#    Time: 40027 ps  Iteration: 0  Instance: /mactb
+# Break in Module mactb at C:/Users/Mr. Hajiheideri/Desktop/kasra/semester 7/CAD/projects/project3/trunk/trunk/src/hdl/test/mactb.v line 22
+add wave -position insertpoint  \
+{sim:/mactb/dut/dp/generating_pe[3]/pes/filter/address}
+add wave -position insertpoint  \
+{sim:/mactb/dut/dp/generating_pe[3]/pes/filter/main_buff_in}
+# Compile of 16_buff.v was successful.
+# Compile of adder.v was successful.
+# Compile of Controller.v failed with 2 errors.
+# Compile of Datapath.v was successful.
+# Compile of mac.v was successful.
+# Compile of mactb.v was successful.
+# Compile of mainbuff.v was successful.
+# Compile of Memory.v was successful.
+# Compile of multiplier.v was successful.
+# Compile of OFM.v was successful.
+# Compile of PE.v was successful.
+# Compile of register.v was successful.
+# Compile of shift_buffer.v was successful.
+# 13 compiles, 1 failed with 2 errors.
+# Compile of 16_buff.v was successful.
+# Compile of adder.v was successful.
+# Compile of Controller.v was successful.
+# Compile of Datapath.v was successful.
+# Compile of mac.v was successful.
+# Compile of mactb.v was successful.
+# Compile of mainbuff.v was successful.
+# Compile of Memory.v was successful.
+# Compile of multiplier.v was successful.
+# Compile of OFM.v was successful.
+# Compile of PE.v was successful.
+# Compile of register.v was successful.
+# Compile of shift_buffer.v was successful.
+# 13 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.mactb
+# Loading work.mac
+# Loading work.DataPath
+# Loading work.memory
+# Loading work.main_buff
+# Loading work.shift_buffer
+# Loading work.Controller
+# Loading work.PE
+# Loading work.buff_16
+# Loading work.multiplier
+# Loading work.adder
+# Loading work.Ofm
+run -all
+# ** Note: $stop    : C:/Users/Mr. Hajiheideri/Desktop/kasra/semester 7/CAD/projects/project3/trunk/trunk/src/hdl/test/mactb.v(22)
+#    Time: 40027 ps  Iteration: 0  Instance: /mactb
+# Break in Module mactb at C:/Users/Mr. Hajiheideri/Desktop/kasra/semester 7/CAD/projects/project3/trunk/trunk/src/hdl/test/mactb.v line 22
+add wave -position insertpoint  \
+{sim:/mactb/dut/dp/generating_pe[3]/pes/ofm/mem}
+restart -f
+run -all
+# ** Note: $stop    : C:/Users/Mr. Hajiheideri/Desktop/kasra/semester 7/CAD/projects/project3/trunk/trunk/src/hdl/test/mactb.v(22)
+#    Time: 40027 ps  Iteration: 0  Instance: /mactb
+# Break in Module mactb at C:/Users/Mr. Hajiheideri/Desktop/kasra/semester 7/CAD/projects/project3/trunk/trunk/src/hdl/test/mactb.v line 22
+add wave -position insertpoint  \
+{sim:/mactb/dut/dp/generating_pe[2]/pes/ofm/mem}
+add wave -position insertpoint  \
+{sim:/mactb/dut/dp/generating_pe[1]/pes/ofm/mem}
+add wave -position insertpoint  \
+{sim:/mactb/dut/dp/generating_pe[0]/pes/ofm/mem}
+restart -f
+run -all
+# ** Note: $stop    : C:/Users/Mr. Hajiheideri/Desktop/kasra/semester 7/CAD/projects/project3/trunk/trunk/src/hdl/test/mactb.v(22)
+#    Time: 40027 ps  Iteration: 0  Instance: /mactb
+# Break in Module mactb at C:/Users/Mr. Hajiheideri/Desktop/kasra/semester 7/CAD/projects/project3/trunk/trunk/src/hdl/test/mactb.v line 22
+add wave -position insertpoint  \
+{sim:/mactb/dut/dp/generating_pe[3]/pes/macout}
+restart -f
+run -all
+# ** Note: $stop    : C:/Users/Mr. Hajiheideri/Desktop/kasra/semester 7/CAD/projects/project3/trunk/trunk/src/hdl/test/mactb.v(22)
+#    Time: 40027 ps  Iteration: 0  Instance: /mactb
+# Break in Module mactb at C:/Users/Mr. Hajiheideri/Desktop/kasra/semester 7/CAD/projects/project3/trunk/trunk/src/hdl/test/mactb.v line 22
+add wave -position insertpoint  \
+{sim:/mactb/dut/dp/generating_pe[3]/pes/ofmaddr}
+restart -f
+run -all
+# ** Note: $stop    : C:/Users/Mr. Hajiheideri/Desktop/kasra/semester 7/CAD/projects/project3/trunk/trunk/src/hdl/test/mactb.v(22)
+#    Time: 40027 ps  Iteration: 0  Instance: /mactb
+# Break in Module mactb at C:/Users/Mr. Hajiheideri/Desktop/kasra/semester 7/CAD/projects/project3/trunk/trunk/src/hdl/test/mactb.v line 22
+# Compile of 16_buff.v was successful.
+# Compile of adder.v was successful.
+# Compile of Controller.v was successful.
+# Compile of Datapath.v was successful.
+# Compile of mac.v was successful.
+# Compile of mactb.v was successful.
+# Compile of mainbuff.v was successful.
+# Compile of Memory.v was successful.
+# Compile of multiplier.v was successful.
+# Compile of OFM.v was successful.
+# Compile of PE.v was successful.
+# Compile of register.v was successful.
+# Compile of shift_buffer.v was successful.
+# 13 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.mactb
+# Loading work.mac
+# Loading work.DataPath
+# Loading work.memory
+# Loading work.main_buff
+# Loading work.shift_buffer
+# Loading work.Controller
+# Loading work.PE
+# Loading work.buff_16
+# Loading work.multiplier
+# Loading work.adder
+# Loading work.Ofm
+run -all
+# ** Note: $stop    : C:/Users/Mr. Hajiheideri/Desktop/kasra/semester 7/CAD/projects/project3/trunk/trunk/src/hdl/test/mactb.v(22)
+#    Time: 40027 ps  Iteration: 0  Instance: /mactb
+# Break in Module mactb at C:/Users/Mr. Hajiheideri/Desktop/kasra/semester 7/CAD/projects/project3/trunk/trunk/src/hdl/test/mactb.v line 22
+# Compile of 16_buff.v was successful.
+# Compile of adder.v was successful.
+# Compile of Controller.v was successful.
+# Compile of Datapath.v was successful.
+# Compile of mac.v was successful.
+# Compile of mactb.v was successful.
+# Compile of mainbuff.v was successful.
+# Compile of Memory.v was successful.
+# Compile of multiplier.v was successful.
+# Compile of OFM.v was successful.
+# Compile of PE.v was successful.
+# Compile of register.v was successful.
+# Compile of shift_buffer.v was successful.
+# 13 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.mactb
+# Loading work.mac
+# Loading work.DataPath
+# Loading work.memory
+# Loading work.main_buff
+# Loading work.shift_buffer
+# Loading work.Controller
+# Loading work.PE
+# Loading work.buff_16
+# Loading work.multiplier
+# Loading work.adder
+# Loading work.Ofm
+run -all
+# ** Note: $stop    : C:/Users/Mr. Hajiheideri/Desktop/kasra/semester 7/CAD/projects/project3/trunk/trunk/src/hdl/test/mactb.v(22)
+#    Time: 40027 ps  Iteration: 0  Instance: /mactb
+# Break in Module mactb at C:/Users/Mr. Hajiheideri/Desktop/kasra/semester 7/CAD/projects/project3/trunk/trunk/src/hdl/test/mactb.v line 22
+add wave -position insertpoint  \
+{sim:/mactb/dut/dp/generating_pe[3]/pes/wrofm}
+restart -f
+run -all
+# ** Note: $stop    : C:/Users/Mr. Hajiheideri/Desktop/kasra/semester 7/CAD/projects/project3/trunk/trunk/src/hdl/test/mactb.v(22)
+#    Time: 40027 ps  Iteration: 0  Instance: /mactb
+# Break in Module mactb at C:/Users/Mr. Hajiheideri/Desktop/kasra/semester 7/CAD/projects/project3/trunk/trunk/src/hdl/test/mactb.v line 22
+# Compile of 16_buff.v was successful.
+# Compile of adder.v was successful.
+# Compile of Controller.v was successful.
+# Compile of Datapath.v was successful.
+# Compile of mac.v was successful.
+# Compile of mactb.v was successful.
+# Compile of mainbuff.v was successful.
+# Compile of Memory.v was successful.
+# Compile of multiplier.v was successful.
+# Compile of OFM.v was successful.
+# Compile of PE.v was successful.
+# Compile of register.v was successful.
+# Compile of shift_buffer.v was successful.
+# 13 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.mactb
+# Loading work.mac
+# Loading work.DataPath
+# Loading work.memory
+# Loading work.main_buff
+# Loading work.shift_buffer
+# Loading work.Controller
+# Loading work.PE
+# Loading work.buff_16
+# Loading work.multiplier
+# Loading work.adder
+# Loading work.Ofm
+run -all
+# ** Note: $stop    : C:/Users/Mr. Hajiheideri/Desktop/kasra/semester 7/CAD/projects/project3/trunk/trunk/src/hdl/test/mactb.v(22)
+#    Time: 40027 ps  Iteration: 0  Instance: /mactb
+# Break in Module mactb at C:/Users/Mr. Hajiheideri/Desktop/kasra/semester 7/CAD/projects/project3/trunk/trunk/src/hdl/test/mactb.v line 22
+add wave -position insertpoint  \
+{sim:/mactb/dut/dp/generating_pe[3]/pes/readEnmac}
+add wave -position insertpoint  \
+{sim:/mactb/dut/dp/generating_pe[3]/pes/addEn}
+add wave -position insertpoint  \
+{sim:/mactb/dut/dp/generating_pe[3]/pes/macCount}
+add wave -position insertpoint  \
+{sim:/mactb/dut/dp/generating_pe[3]/pes/multplr/a}
+add wave -position insertpoint  \
+{sim:/mactb/dut/dp/generating_pe[3]/pes/multplr/b}
+add wave -position insertpoint  \
+{sim:/mactb/dut/dp/generating_pe[3]/pes/multplr/result}
+# Compile of 16_buff.v was successful.
+# Compile of adder.v was successful.
+# Compile of Controller.v was successful.
+# Compile of Datapath.v was successful.
+# Compile of mac.v was successful.
+# Compile of mactb.v was successful.
+# Compile of mainbuff.v was successful.
+# Compile of Memory.v was successful.
+# Compile of multiplier.v was successful.
+# Compile of OFM.v was successful.
+# Compile of PE.v was successful.
+# Compile of register.v was successful.
+# Compile of shift_buffer.v was successful.
+# 13 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.mactb
+# Loading work.mac
+# Loading work.DataPath
+# Loading work.memory
+# Loading work.main_buff
+# Loading work.shift_buffer
+# Loading work.Controller
+# Loading work.PE
+# Loading work.buff_16
+# Loading work.multiplier
+# Loading work.adder
+# Loading work.Ofm
+run -all
+# ** Note: $stop    : C:/Users/Mr. Hajiheideri/Desktop/kasra/semester 7/CAD/projects/project3/trunk/trunk/src/hdl/test/mactb.v(22)
+#    Time: 40027 ps  Iteration: 0  Instance: /mactb
+# Break in Module mactb at C:/Users/Mr. Hajiheideri/Desktop/kasra/semester 7/CAD/projects/project3/trunk/trunk/src/hdl/test/mactb.v line 22
+# Compile of 16_buff.v was successful.
+# Compile of adder.v was successful.
+# Compile of Controller.v was successful.
+# Compile of Datapath.v was successful.
+# Compile of mac.v was successful.
+# Compile of mactb.v was successful.
+# Compile of mainbuff.v was successful.
+# Compile of Memory.v was successful.
+# Compile of multiplier.v was successful.
+# Compile of OFM.v was successful.
+# Compile of PE.v was successful.
+# Compile of register.v was successful.
+# Compile of shift_buffer.v was successful.
+# 13 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.mactb
+# Loading work.mac
+# Loading work.DataPath
+# Loading work.memory
+# Loading work.main_buff
+# Loading work.shift_buffer
+# Loading work.Controller
+# Loading work.PE
+# Loading work.buff_16
+# Loading work.multiplier
+# Loading work.adder
+# Loading work.Ofm
+run -all
+# ** Note: $stop    : C:/Users/Mr. Hajiheideri/Desktop/kasra/semester 7/CAD/projects/project3/trunk/trunk/src/hdl/test/mactb.v(22)
+#    Time: 40027 ps  Iteration: 0  Instance: /mactb
+# Break in Module mactb at C:/Users/Mr. Hajiheideri/Desktop/kasra/semester 7/CAD/projects/project3/trunk/trunk/src/hdl/test/mactb.v line 22
+quit -sim
+# End time: 01:34:36 on Jan 09,2024, Elapsed time: 1:57:37
+# Errors: 0, Warnings: 1
+cd {C:/Users/Mr. Hajiheideri/Desktop/kasra/semester 7/CAD/projects/project3/trunk/trunk/sim}
+# reading C:/intelFPGA/20.1/modelsim_ase/win32aloem/../modelsim.ini
+# reading modelsim.ini
+do sim_top.tcl
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work work 
+# Modifying modelsim.ini
+# mactb
+# ../src/hdl
+# ../src/inc
+# 1 us
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 01:35:04 on Jan 09,2024
+# vlog -reportprogress 300 "+acc" -incr -source "+define+SIM" ../src/hdl/16_buff.v 
+# -- Skipping module buff_16
+# 
+# Top level modules:
+# 	buff_16
+# End time: 01:35:04 on Jan 09,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 01:35:04 on Jan 09,2024
+# vlog -reportprogress 300 "+acc" -incr -source "+define+SIM" ../src/hdl/adder.v 
+# -- Skipping module adder
+# 
+# Top level modules:
+# 	adder
+# End time: 01:35:04 on Jan 09,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 01:35:05 on Jan 09,2024
+# vlog -reportprogress 300 "+acc" -incr -source "+define+SIM" ../src/hdl/Controller.v 
+# -- Compiling module Controller
+# 
+# Top level modules:
+# 	Controller
+# End time: 01:35:05 on Jan 09,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 01:35:05 on Jan 09,2024
+# vlog -reportprogress 300 "+acc" -incr -source "+define+SIM" ../src/hdl/Datapath.v 
+# -- Compiling module DataPath
+# 
+# Top level modules:
+# 	DataPath
+# End time: 01:35:05 on Jan 09,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 01:35:05 on Jan 09,2024
+# vlog -reportprogress 300 "+acc" -incr -source "+define+SIM" ../src/hdl/mac.v 
+# -- Compiling module mac
+# 
+# Top level modules:
+# 	mac
+# End time: 01:35:05 on Jan 09,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 01:35:06 on Jan 09,2024
+# vlog -reportprogress 300 "+acc" -incr -source "+define+SIM" ../src/hdl/mainbuff.v 
+# -- Skipping module main_buff
+# 
+# Top level modules:
+# 	main_buff
+# End time: 01:35:06 on Jan 09,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 01:35:06 on Jan 09,2024
+# vlog -reportprogress 300 "+acc" -incr -source "+define+SIM" ../src/hdl/Memory.v 
+# -- Compiling module memory
+# 
+# Top level modules:
+# 	memory
+# End time: 01:35:06 on Jan 09,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 01:35:06 on Jan 09,2024
+# vlog -reportprogress 300 "+acc" -incr -source "+define+SIM" ../src/hdl/multiplier.v 
+# -- Skipping module multiplier
+# 
+# Top level modules:
+# 	multiplier
+# End time: 01:35:07 on Jan 09,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 01:35:07 on Jan 09,2024
+# vlog -reportprogress 300 "+acc" -incr -source "+define+SIM" ../src/hdl/register.v 
+# -- Skipping module Register
+# 
+# Top level modules:
+# 	Register
+# End time: 01:35:07 on Jan 09,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 01:35:07 on Jan 09,2024
+# vlog -reportprogress 300 "+acc" -incr -source "+define+SIM" ../src/hdl/shift_buffer.v 
+# -- Skipping module shift_buffer
+# 
+# Top level modules:
+# 	shift_buffer
+# End time: 01:35:07 on Jan 09,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 01:35:07 on Jan 09,2024
+# vlog -reportprogress 300 "+acc" -incr -source "+define+SIM" ../src/hdl/OFM.v 
+# -- Compiling module Ofm
+# 
+# Top level modules:
+# 	Ofm
+# End time: 01:35:08 on Jan 09,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 01:35:08 on Jan 09,2024
+# vlog -reportprogress 300 "+acc" -incr -source "+define+SIM" ../src/hdl/PE.v 
+# -- Compiling module PE
+# 
+# Top level modules:
+# 	PE
+# End time: 01:35:08 on Jan 09,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 01:35:08 on Jan 09,2024
+# vlog -reportprogress 300 "+acc" -incr -source "+incdir+../src/inc" "+define+SIM" ./tb/mactb.v 
+# -- Compiling module mactb
+# 
+# Top level modules:
+# 	mactb
+# End time: 01:35:08 on Jan 09,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" -debugDB mactb 
+# Start time: 01:35:08 on Jan 09,2024
+# Loading work.mactb
+# Loading work.mac
+# Loading work.DataPath
+# Loading work.memory
+# Loading work.main_buff
+# Loading work.shift_buffer
+# Loading work.Controller
+# Loading work.PE
+# Loading work.buff_16
+# Loading work.multiplier
+# Loading work.adder
+# Loading work.Ofm
+# ** Note: (vsim-8900) Creating design debug database vsim.dbg.
+# It appears vopt was not run with -debugdb option on this design.
+# Advanced Causality and Schematic debug features will not be available.
+# ** UI-Msg: (vish-4014) No objects found matching '/mactb/uut/*'.
+# Executing ONERROR command at macro ./sim_top.tcl line 42
+# invoked "break" outside of a loop
+# ** Warning: (vsim-7) Failed to open readmem file "input.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : ../src/hdl/Memory.v(12)
+#    Time: 0 ps  Iteration: 0  Instance: /mactb/dut/dp/mem
+# ** Note: $stop    : ./tb/mactb.v(22)
+#    Time: 40027 ps  Iteration: 0  Instance: /mactb
+# Break in Module mactb at ./tb/mactb.v line 22
+add wave -position insertpoint  \
+{sim:/mactb/dut/dp/generating_pe[3]/pes/ofm/mem}
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-8716) Reusing existing debug database vsim.dbg.
+run -all
+# ** Warning: (vsim-7) Failed to open readmem file "input.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : ../src/hdl/Memory.v(12)
+#    Time: 0 ps  Iteration: 0  Instance: /mactb/dut/dp/mem
+# ** Note: $stop    : ./tb/mactb.v(22)
+#    Time: 40027 ps  Iteration: 0  Instance: /mactb
+# Break in Module mactb at ./tb/mactb.v line 22
+add wave -position insertpoint  \
+sim:/mactb/dut/dp/mem/memory
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-8716) Reusing existing debug database vsim.dbg.
+run -all
+# ** Warning: (vsim-7) Failed to open readmem file "input.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : ../src/hdl/Memory.v(12)
+#    Time: 0 ps  Iteration: 0  Instance: /mactb/dut/dp/mem
+# ** Note: $stop    : ./tb/mactb.v(22)
+#    Time: 40027 ps  Iteration: 0  Instance: /mactb
+# Break in Module mactb at ./tb/mactb.v line 22
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-8716) Reusing existing debug database vsim.dbg.
+run -all
+# ** Warning: (vsim-7) Failed to open readmem file "input.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : ../src/hdl/Memory.v(12)
+#    Time: 0 ps  Iteration: 0  Instance: /mactb/dut/dp/mem
+# ** Note: $stop    : ./tb/mactb.v(22)
+#    Time: 40027 ps  Iteration: 0  Instance: /mactb
+# Break in Module mactb at ./tb/mactb.v line 22
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-8716) Reusing existing debug database vsim.dbg.
+run -all
+# ** Warning: (vsim-7) Failed to open readmem file "input.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : ../src/hdl/Memory.v(12)
+#    Time: 0 ps  Iteration: 0  Instance: /mactb/dut/dp/mem
+# ** Note: $stop    : ./tb/mactb.v(22)
+#    Time: 40027 ps  Iteration: 0  Instance: /mactb
+# Break in Module mactb at ./tb/mactb.v line 22
+do sim_top.tcl
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work work 
+# Modifying modelsim.ini
+# mactb
+# ../src/hdl
+# ../src/inc
+# 1 us
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 01:39:39 on Jan 09,2024
+# vlog -reportprogress 300 "+acc" -incr -source "+define+SIM" ../src/hdl/16_buff.v 
+# -- Skipping module buff_16
+# 
+# Top level modules:
+# 	buff_16
+# End time: 01:39:39 on Jan 09,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 01:39:39 on Jan 09,2024
+# vlog -reportprogress 300 "+acc" -incr -source "+define+SIM" ../src/hdl/adder.v 
+# -- Skipping module adder
+# 
+# Top level modules:
+# 	adder
+# End time: 01:39:39 on Jan 09,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 01:39:39 on Jan 09,2024
+# vlog -reportprogress 300 "+acc" -incr -source "+define+SIM" ../src/hdl/Controller.v 
+# -- Skipping module Controller
+# 
+# Top level modules:
+# 	Controller
+# End time: 01:39:39 on Jan 09,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 01:39:40 on Jan 09,2024
+# vlog -reportprogress 300 "+acc" -incr -source "+define+SIM" ../src/hdl/Datapath.v 
+# -- Skipping module DataPath
+# 
+# Top level modules:
+# 	DataPath
+# End time: 01:39:40 on Jan 09,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 01:39:40 on Jan 09,2024
+# vlog -reportprogress 300 "+acc" -incr -source "+define+SIM" ../src/hdl/mac.v 
+# -- Skipping module mac
+# 
+# Top level modules:
+# 	mac
+# End time: 01:39:40 on Jan 09,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 01:39:40 on Jan 09,2024
+# vlog -reportprogress 300 "+acc" -incr -source "+define+SIM" ../src/hdl/mainbuff.v 
+# -- Skipping module main_buff
+# 
+# Top level modules:
+# 	main_buff
+# End time: 01:39:41 on Jan 09,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 01:39:41 on Jan 09,2024
+# vlog -reportprogress 300 "+acc" -incr -source "+define+SIM" ../src/hdl/Memory.v 
+# -- Compiling module memory
+# 
+# Top level modules:
+# 	memory
+# End time: 01:39:41 on Jan 09,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 01:39:41 on Jan 09,2024
+# vlog -reportprogress 300 "+acc" -incr -source "+define+SIM" ../src/hdl/multiplier.v 
+# -- Skipping module multiplier
+# 
+# Top level modules:
+# 	multiplier
+# End time: 01:39:42 on Jan 09,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 01:39:42 on Jan 09,2024
+# vlog -reportprogress 300 "+acc" -incr -source "+define+SIM" ../src/hdl/register.v 
+# -- Skipping module Register
+# 
+# Top level modules:
+# 	Register
+# End time: 01:39:42 on Jan 09,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 01:39:42 on Jan 09,2024
+# vlog -reportprogress 300 "+acc" -incr -source "+define+SIM" ../src/hdl/shift_buffer.v 
+# -- Skipping module shift_buffer
+# 
+# Top level modules:
+# 	shift_buffer
+# End time: 01:39:42 on Jan 09,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 01:39:43 on Jan 09,2024
+# vlog -reportprogress 300 "+acc" -incr -source "+define+SIM" ../src/hdl/OFM.v 
+# -- Skipping module Ofm
+# 
+# Top level modules:
+# 	Ofm
+# End time: 01:39:43 on Jan 09,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 01:39:43 on Jan 09,2024
+# vlog -reportprogress 300 "+acc" -incr -source "+define+SIM" ../src/hdl/PE.v 
+# -- Skipping module PE
+# 
+# Top level modules:
+# 	PE
+# End time: 01:39:43 on Jan 09,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 01:39:43 on Jan 09,2024
+# vlog -reportprogress 300 "+acc" -incr -source "+incdir+../src/inc" "+define+SIM" ./tb/mactb.v 
+# -- Skipping module mactb
+# 
+# Top level modules:
+# 	mactb
+# End time: 01:39:44 on Jan 09,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 01:39:50 on Jan 09,2024, Elapsed time: 0:04:42
+# Errors: 0, Warnings: 1
+# vsim -voptargs="+acc" -debugDB mactb 
+# Start time: 01:39:51 on Jan 09,2024
+# Loading work.mactb
+# Loading work.mac
+# Loading work.DataPath
+# Loading work.memory
+# Loading work.main_buff
+# Loading work.shift_buffer
+# Loading work.Controller
+# Loading work.PE
+# Loading work.buff_16
+# Loading work.multiplier
+# Loading work.adder
+# Loading work.Ofm
+# ** Note: (vsim-8900) Creating design debug database vsim.dbg.
+# It appears vopt was not run with -debugdb option on this design.
+# Advanced Causality and Schematic debug features will not be available.
+# ** UI-Msg: (vish-4014) No objects found matching '/mactb/uut/*'.
+# Executing ONERROR command at macro ./sim_top.tcl line 42
+# invoked "break" outside of a loop
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 129 of file "file/input.txt". (Current address [128][3], address range [0:127][0:3])    : ../src/hdl/Memory.v(12)
+#    Time: 0 ps  Iteration: 0  Instance: /mactb/dut/dp/mem
+# ** Note: $stop    : ./tb/mactb.v(22)
+#    Time: 40027 ps  Iteration: 0  Instance: /mactb
+# Break in Module mactb at ./tb/mactb.v line 22
+add wave -position insertpoint  \
+sim:/mactb/dut/dp/mem/memory
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-8716) Reusing existing debug database vsim.dbg.
+run -all
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 129 of file "file/input.txt". (Current address [128][3], address range [0:127][0:3])    : ../src/hdl/Memory.v(12)
+#    Time: 0 ps  Iteration: 0  Instance: /mactb/dut/dp/mem
+# ** Note: $stop    : ./tb/mactb.v(22)
+#    Time: 40027 ps  Iteration: 0  Instance: /mactb
+# Break in Module mactb at ./tb/mactb.v line 22
+add wave -position insertpoint  \
+{sim:/mactb/dut/dp/generating_pe[3]/pes/ofm/mem}
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-8716) Reusing existing debug database vsim.dbg.
+run -all
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 129 of file "file/input.txt". (Current address [128][3], address range [0:127][0:3])    : ../src/hdl/Memory.v(12)
+#    Time: 0 ps  Iteration: 0  Instance: /mactb/dut/dp/mem
+# ** Note: $stop    : ./tb/mactb.v(22)
+#    Time: 40027 ps  Iteration: 0  Instance: /mactb
+# Break in Module mactb at ./tb/mactb.v line 22
+do sim_top.tcl
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work work 
+# Modifying modelsim.ini
+# mactb
+# ../src/hdl
+# ../src/inc
+# 1 us
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 01:42:20 on Jan 09,2024
+# vlog -reportprogress 300 "+acc" -incr -source "+define+SIM" ../src/hdl/16_buff.v 
+# -- Skipping module buff_16
+# 
+# Top level modules:
+# 	buff_16
+# End time: 01:42:20 on Jan 09,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 01:42:20 on Jan 09,2024
+# vlog -reportprogress 300 "+acc" -incr -source "+define+SIM" ../src/hdl/adder.v 
+# -- Skipping module adder
+# 
+# Top level modules:
+# 	adder
+# End time: 01:42:20 on Jan 09,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 01:42:20 on Jan 09,2024
+# vlog -reportprogress 300 "+acc" -incr -source "+define+SIM" ../src/hdl/Controller.v 
+# -- Skipping module Controller
+# 
+# Top level modules:
+# 	Controller
+# End time: 01:42:21 on Jan 09,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 01:42:21 on Jan 09,2024
+# vlog -reportprogress 300 "+acc" -incr -source "+define+SIM" ../src/hdl/Datapath.v 
+# -- Skipping module DataPath
+# 
+# Top level modules:
+# 	DataPath
+# End time: 01:42:21 on Jan 09,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 01:42:21 on Jan 09,2024
+# vlog -reportprogress 300 "+acc" -incr -source "+define+SIM" ../src/hdl/mac.v 
+# -- Skipping module mac
+# 
+# Top level modules:
+# 	mac
+# End time: 01:42:21 on Jan 09,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 01:42:22 on Jan 09,2024
+# vlog -reportprogress 300 "+acc" -incr -source "+define+SIM" ../src/hdl/mainbuff.v 
+# -- Skipping module main_buff
+# 
+# Top level modules:
+# 	main_buff
+# End time: 01:42:22 on Jan 09,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 01:42:22 on Jan 09,2024
+# vlog -reportprogress 300 "+acc" -incr -source "+define+SIM" ../src/hdl/Memory.v 
+# -- Skipping module memory
+# 
+# Top level modules:
+# 	memory
+# End time: 01:42:22 on Jan 09,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 01:42:23 on Jan 09,2024
+# vlog -reportprogress 300 "+acc" -incr -source "+define+SIM" ../src/hdl/multiplier.v 
+# -- Skipping module multiplier
+# 
+# Top level modules:
+# 	multiplier
+# End time: 01:42:23 on Jan 09,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 01:42:23 on Jan 09,2024
+# vlog -reportprogress 300 "+acc" -incr -source "+define+SIM" ../src/hdl/register.v 
+# -- Skipping module Register
+# 
+# Top level modules:
+# 	Register
+# End time: 01:42:23 on Jan 09,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 01:42:24 on Jan 09,2024
+# vlog -reportprogress 300 "+acc" -incr -source "+define+SIM" ../src/hdl/shift_buffer.v 
+# -- Skipping module shift_buffer
+# 
+# Top level modules:
+# 	shift_buffer
+# End time: 01:42:24 on Jan 09,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 01:42:24 on Jan 09,2024
+# vlog -reportprogress 300 "+acc" -incr -source "+define+SIM" ../src/hdl/OFM.v 
+# -- Skipping module Ofm
+# 
+# Top level modules:
+# 	Ofm
+# End time: 01:42:24 on Jan 09,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 01:42:24 on Jan 09,2024
+# vlog -reportprogress 300 "+acc" -incr -source "+define+SIM" ../src/hdl/PE.v 
+# -- Skipping module PE
+# 
+# Top level modules:
+# 	PE
+# End time: 01:42:25 on Jan 09,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 01:42:25 on Jan 09,2024
+# vlog -reportprogress 300 "+acc" -incr -source "+incdir+../src/inc" "+define+SIM" ./tb/mactb.v 
+# -- Skipping module mactb
+# 
+# Top level modules:
+# 	mactb
+# End time: 01:42:25 on Jan 09,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 01:43:04 on Jan 09,2024, Elapsed time: 0:03:13
+# Errors: 0, Warnings: 1
+# vsim -voptargs="+acc" -debugDB mactb 
+# Start time: 01:43:04 on Jan 09,2024
+# Loading work.mactb
+# Loading work.mac
+# Loading work.DataPath
+# Loading work.memory
+# Loading work.main_buff
+# Loading work.shift_buffer
+# Loading work.Controller
+# Loading work.PE
+# Loading work.buff_16
+# Loading work.multiplier
+# Loading work.adder
+# Loading work.Ofm
+# ** Note: (vsim-8716) Reusing existing debug database vsim.dbg.
+# ** UI-Msg: (vish-4014) No objects found matching '/mactb/uut/*'.
+# Executing ONERROR command at macro ./sim_top.tcl line 42
+# invoked "break" outside of a loop
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 129 of file "file/input.txt". (Current address [128][3], address range [0:127][0:3])    : ../src/hdl/Memory.v(12)
+#    Time: 0 ps  Iteration: 0  Instance: /mactb/dut/dp/mem
+# ** Note: $stop    : ./tb/mactb.v(22)
+#    Time: 40027 ps  Iteration: 0  Instance: /mactb
+# Break in Module mactb at ./tb/mactb.v line 22
+add wave -position insertpoint  \
+{sim:/mactb/dut/dp/generating_pe[3]/pes/ofm/mem}
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-8716) Reusing existing debug database vsim.dbg.
+run -all
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 129 of file "file/input.txt". (Current address [128][3], address range [0:127][0:3])    : ../src/hdl/Memory.v(12)
+#    Time: 0 ps  Iteration: 0  Instance: /mactb/dut/dp/mem
+# ** Note: $stop    : ./tb/mactb.v(22)
+#    Time: 40027 ps  Iteration: 0  Instance: /mactb
+# Break in Module mactb at ./tb/mactb.v line 22
+# End time: 01:44:23 on Jan 09,2024, Elapsed time: 0:01:19
+# Errors: 0, Warnings: 1
